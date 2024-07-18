@@ -67,6 +67,11 @@ body::before{
     text-transform: uppercase;
    
 }
+
+.logo-img {
+    width: 20%;
+    border-radius: 50%;
+}
 a{
     text-decoration: none;
 }
@@ -126,7 +131,7 @@ section.fade-out{
     padding: 80px 0;
 }
 .flex-end{
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 /* Section Title */
 .section-title{
@@ -540,7 +545,7 @@ button{
     border-radius: 10px;
 }
 .about-img .img-box img{
-    width: 100%;
+    width: 80%;
 }
 .about-text h3{
     text-transform: capitalize;
