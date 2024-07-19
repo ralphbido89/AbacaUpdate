@@ -20,6 +20,16 @@
     --backdrop-filter-blur: blur(5px);
 }
 
+/* FOOTER */
+
+
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    position: absolute;
+    bottom: 10px;
+}
+
 /* ---------------------
  Global Settings 
  ---------------------- */
@@ -545,7 +555,8 @@ button{
     border-radius: 10px;
 }
 .about-img .img-box img{
-    width: 80%;
+    width: 100%;
+    /* border-radius: 30%; */
 }
 .about-text h3{
     text-transform: capitalize;
