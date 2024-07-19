@@ -28,6 +28,8 @@
     font-size: 8px;
     position: absolute;
     bottom: 10px;
+    text-align: center;
+    width: 90%;
 }
 
 /* ---------------------
@@ -79,9 +81,24 @@ body::before{
 }
 
 .logo-img {
-    width: 20%;
+    width: 22%;
     border-radius: 50%;
+    float: right;
+    margin: 0;
+    padding: 0;
 }
+
+.logo-box {
+    background-color: red;
+    display: flex  ;
+   justify-content: space-evenly;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+}
+
 a{
     text-decoration: none;
 }
@@ -141,7 +158,7 @@ section.fade-out{
     padding: 80px 0;
 }
 .flex-end{
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 /* Section Title */
 .section-title{
